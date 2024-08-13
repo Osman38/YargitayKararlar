@@ -17,7 +17,6 @@ WHERE id IN (SELECT id
              WHERE rn > 1);
 
 
-
 -- Yıllara göre karar_id değerlerini listeleme
 SELECT karar_id
 FROM kararlar
