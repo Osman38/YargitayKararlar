@@ -4,7 +4,7 @@ from sqlalchemy.exc import SQLAlchemyError,DBAPIError
 from dotenv import load_dotenv
 import os
 
-#  .env dosyasını yükle
+#  .env dosyasını yükleyin
 load_dotenv()
 # Veritabanı bağlantı dizesi
 DATABASE_URL = os.getenv('DATABASE_URL')
